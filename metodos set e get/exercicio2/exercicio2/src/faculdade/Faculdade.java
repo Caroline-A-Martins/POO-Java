@@ -1,11 +1,11 @@
 package faculdade;
 
 public class Faculdade {
-    String nome;
-    String curso;
-    String ra;
-    double nota;
-    double mensalidade;
+    private String nome;
+    private String curso;
+    private String ra;
+    private double nota;
+    private double mensalidade;
     
     
     public void setNome (String nome){
@@ -50,7 +50,7 @@ public class Faculdade {
     
     public double descontoMensalidade(double nota){
         if (nota >= 9)
-            return mensalidade * 0.5;    
+            return mensalidade * 0.50;    
         else
             return mensalidade;  
     }

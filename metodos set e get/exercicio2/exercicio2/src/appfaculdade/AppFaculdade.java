@@ -10,7 +10,7 @@ public class AppFaculdade {
         f1.setCurso("ADS");
         f1.setRa("123456");
         f1.setNota(10);
-        f1.setMensalidade(400);
+        f1.setMensalidade(400.00);
         
         System.out.println("Nome: " + f1.getNome() );
         System.out.println("RA: " + f1.getRa() );
